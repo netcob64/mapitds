@@ -1,0 +1,165 @@
+{
+    "application": {
+        "ids": {
+            "1": {
+                "id": 1,
+                "name": "SAP",
+                "label": "no-label",
+                "type": "PRO",
+                "status": "PROD",
+                "version": 1,
+                "validityStart": "2018-09-01T22:00:00.000Z",
+                "validityEnd": null,
+                "onServiceSince": "01/02/2005"
+            },
+            "2": {
+                "id": 2,
+                "name": "moSaic",
+                "label": "no-label",
+                "type": "SPEC",
+                "status": "DEV",
+                "version": 1,
+                "validityStart": "2018-06-02T22:00:00.000Z",
+                "validityEnd": "2018-09-29T22:00:00.000Z",
+                "onServiceSince": null
+            },
+            "3": {
+                "id": 3,
+                "name": "M@tis",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "status": "DEV",
+                "version": 1,
+                "validityStart": "10/05/2018",
+                "validityEnd": null,
+                "onServiceSince": null
+            },
+            "5": {
+                "id": 5,
+                "name": "SAS",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "status": "ARCH",
+                "version": 1,
+                "validityStart": "01/01/200",
+                "validityEnd": null,
+                "onServiceSince": "01/02/2015"
+            }
+        },
+        "names": {
+            "M@tis": 3,
+            "SAS": 5,
+            "SAP": 1,
+            "moSaic": 2
+        },
+        "nextid": 7
+    },
+    "meta-model": {
+        "ids": {
+            "1": {
+                "id": 1,
+                "name": "Application",
+                "label": "_label",
+                "type": "_type",
+                "status": "ACTIVATED",
+                "version": 1,
+                "validityStart": "_start",
+                "validityEnd": "_end"
+            },
+            "2": {
+                "id": 2,
+                "name": "Site",
+                "label": "_label",
+                "type": "_type",
+                "status": "DRAFT",
+                "version": 1,
+                "validityStart": "_start",
+                "validityEnd": "_end"
+            },
+            "3": {
+                "id": 3,
+                "name": "Message",
+                "label": "hello",
+                "type": "_type",
+                "status": "DRAFT",
+                "version": 0,
+                "validityStart": "_start",
+                "validityEnd": "_end",
+                "classStatus": "DRAFT",
+                "attributes": [
+                    {
+                        "type": "NUM",
+                        "name": "id",
+                        "label": "ID",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "NUM",
+                        "name": "version",
+                        "label": "Version",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "TXT",
+                        "name": "name",
+                        "label": "Name",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "type",
+                        "label": "Type",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "status",
+                        "label": "Status",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityStart",
+                        "label": "Validity start date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityEnd",
+                        "label": "Validity end date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "media",
+                        "label": "Media",
+                        "values": "FTP;MSG",
+                        "isSystem": false,
+                        "valSystem": false
+                    }
+                ],
+                "relations": []
+            }
+        },
+        "names": {
+            "Application": 1,
+            "Site": 2,
+            "Message": 3
+        },
+        "nextid": 4
+    }
+}

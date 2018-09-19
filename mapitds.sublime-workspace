@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"eSize"
+			],
+			[
+				"p",
+				"population\tproperty"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"select",
+				"SelectYear"
+			],
+			[
+				"cu",
+				"currentMonth"
+			],
+			[
+				"curr",
+				"currentYear"
+			],
+			[
+				"y",
+				"year"
+			],
+			[
+				"ch",
+				"chartOptions"
+			],
+			[
+				"gete",
+				"getElementById"
+			],
+			[
+				"ca",
+				"canvasId"
+			],
+			[
+				"SAE",
+				"SAEWheelChart"
+			],
+			[
+				"se",
+				"searchTitle"
+			],
+			[
+				"d",
+				"date"
+			],
+			[
+				"nbD",
+				"nbData"
+			],
+			[
+				"nbDat",
+				"nbDataSet"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"g",
+				"gui-ctrl-component\tscript"
+			],
+			[
+				"I",
+				"ItApplication"
+			],
+			[
+				"to",
+				"toJsonString"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"shad",
+				"box-shadow"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"art",
+				"ArcticTypescript: Terminate All Builds"
+			],
+			[
+				"buil",
+				"ArcticTypescript: Build"
+			],
+			[
+				"a",
+				"ArcticTypescript: Build"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"typescr",
+				"TypeScript: Paste And Format"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds"
+	],
+	"file_history":
+	[
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/dist/main.js.map",
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/src/People/Man.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/src/People/Woman.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/package.json",
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/tsconfig.json",
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/src/main.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/app.module.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/tstypescript.sublime-project",
+		"/C/Users/s582621/AppData/Roaming/Sublime Text 3/Packages/TypeScript/typescript/commands/signature.py",
+		"/C/Users/s582621/Documents/Dev/GitHub/tsproject/main.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds/p.ts",
+		"/C/Users/s582621/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds/README.md",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds/ObjectDB.js",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds/package.json",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds/server.js",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/styles.css",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/app/app.module.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/app/app.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/app/app.component.css",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/main.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/index.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/app/app.component.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/tstmxgangular/src/app/navigation/navigation.component.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/SiteAssets/SitePages/saechart/QRQC_CODIR_KPI/QRQC_CODIR_KPI.js",
+		"/C/Users/s582621/Desktop/Use the SharePoint JavaScript APIs to work with SharePoint data - Microsoft Docs.url",
+		"/C/Users/s582621/Desktop/favoris_27_04_2018.html",
+		"/C/Users/s582621/Desktop/Documents du seminaire Juin 2018.html",
+		"/C/Users/s582621/Desktop/Etudes Stratégies.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/saechart/README.md",
+		"/C/Users/s582621/Downloads/Doc SAP 4 HANA.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/SiteAssets/SitePages/saechart/QRQC_CODIR_KPI/style.css",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/SiteAssets/SitePages/saechart/SANDBOX_QRQC_KPI/style.css",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/SiteAssets/SitePages/saechart/SANDBOX_QRQC_KPI/HTML_TO_ADD_IN_SP_PAGE.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/SiteAssets/SitePages/saechart/x.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/SiteAssets/SitePages/saechart/SANDBOX_QRQC_KPI/SANDBOX_QRQC_KPI.js",
+		"/C/Users/s582621/Documents/Dev/GitHub/saechart/SANDBOX_QRQC_KPI/HTML_TO_ADD_IN_SP_PAGE.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAECharts/QRQC_CODIR_KPI.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/ChartsJS/javascripts/TransitionCharts.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/ChartsJS/transitionChart.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAECharts/testSAEWheelChartInSP.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAECharts/javascripts/SAEChart.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAECharts/javascripts/SAEWheelChartInSP.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAECharts/testChart.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAECharts/DemoKPISAEWCharts.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAECharts/stylesheets/style.css",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/Lists/GraphData/AllItems.aspx",
+		"/C/Users/s582621/Documents/Dev/SAECharts/javascripts/SAESPUtil.js",
+		"/C/Users/s582621/Documents/Dev/SAECharts/javascripts/myChart.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAEWheelChart/javascripts/SAEChart.js",
+		"/C/Users/s582621/Documents/Dev/SAEWChart/SAEWheelChart/testChart.html",
+		"/C/Users/s582621/Documents/Dev/SAEWChart/SAEWheelChart/testChart - Copie.html",
+		"/C/Users/s582621/Documents/Dev/SAEWheelChart/SAEWheelChartPREV/testChart.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAEWheelChart/SAEWheelChartInSP.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAEWheelChart/javascripts/SAESPUtil.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SitePages/test.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/SAEWheelChart/stylesheets/style.css",
+		"/C/Users/s582621/Documents/Dev/SAEWheelChart/testSAEWhellChartInSP.html",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/js/MicrosoftAjax.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SitePages/TestSPJSAPI.aspx",
+		"/C/Users/s582621/Documents/Dev/SAEWheelChart/testChart.html",
+		"/C/Users/s582621/Documents/Dev/SAEWheelChart/javascripts/SAEChart.js",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SitePages/TestJScript.aspx",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/_catalogs/theme/15/Palette015.spcolor",
+		"/C/Users/s582621/Downloads/palette005.spcolor",
+		"/C/Users/s582621/Downloads/palette015.spcolor",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SiteAssets/SitePages/ChartsJS/test.html",
+		"/C/Users/s582621/Downloads/LiLien Vers Site Partagé QRQC.html",
+		"/C/Users/s582621/Desktop/RCE QRQC SAE.html",
+		"/C/Users/s582621/Downloads/Liens vers Nos IP.html",
+		"/C/Users/s582621/Downloads/our-main-goals.js",
+		"/C/Users/s582621/Downloads/Lien Vers REVUES CODIR DE PERFORMANCE PROJET.html",
+		"/C/Users/s582621/Downloads/Lien vers Bilan Perspectives - Interview F Planaud.html",
+		"/C/Users/s582621/Downloads/SHP Link Template REAME.htm",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/Lists/Management Office et Progrs/Tiles.aspx",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/SitePages/Accueil.aspx",
+		"/C/Users/s582621/Desktop/Test.html",
+		"/C/Users/s582621/Downloads/SHP Link Template.htm",
+		"/C/Users/s582621/Downloads/Management des Données.htm",
+		"//teams.collab.group.safran@SSL/DavWWWRoot/snm/dsi/pdp/Lists/Discussion equipe/AllItems.aspx",
+		"/C/Users/s582621/Downloads/codivperf-20171221.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/gui-ctrl-component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/app.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/middle/middle.component.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/header/header.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/data.service.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/middle/middle.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/login-form/login-form.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/header/header.component.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/login-form/login-form.component.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/app.component.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/core/services/user.service.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/README.md",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/app-routing.module.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/users-routing.module.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/sign-up/sign-up.component.scss",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/sign-out/sign-out.component.scss",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/my-account/my-account.component.scss",
+		"/C/Users/s582621/Documents/Dev/angular-reactive-authentication-master/src/app/app.module.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/users.reducers.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/app.reducers.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/users.actions.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/users.effects.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/shared/authentication.guard.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/core/util.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/sign-in/sign-in.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/sign-in/sign-in.component.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/users.module.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/not-found/not-found.component.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/main-tab/main-tab.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/users.actions.ts.",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/users/users/users.module.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/core/models/it-asset.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/application-form/application-form.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/application-list/application-list.component.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/core/models/user.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/app/it-assets/it-application-list.ts",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapit/src/index.html",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds/myDataBase.json",
+		"/C/Users/s582621/Documents/Dev/GitHub/mapitds/node_modules/content-disposition/index.js",
+		"/C/Users/s582621/Documents/Dev/NodeJS/mapit/src/app/app.module.ts",
+		"/C/Users/s582621/Documents/Dev/NodeJS/mapit/src/app/drawing-function-list/drawing-function-list.component.ts",
+		"/C/Users/s582621/Documents/Dev/NodeJS/mapit/src/app/drawing-function-list/drawing-function-list.component.html",
+		"/C/Users/s582621/Documents/Dev/NodeJS/test-ang-material/app.html",
+		"/C/Users/s582621/Documents/Dev/NodeJS/test-ang-material/testlayout.html",
+		"/C/Users/s582621/Documents/Dev/NodeJS/test-ang-material/test6.html",
+		"/C/Users/s582621/Documents/Dev/NodeJS/test-ang-material/app.js",
+		"/C/Users/s582621/Documents/Dev/NodeJS/test-ang-material/testlayout.css"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 114.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.typescript_output":
+	{
+		"height": 133.0
+	},
+	"pinned_build_system": "Packages/TypeScript/TypeScript.sublime-build",
+	"project": "mapitds.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

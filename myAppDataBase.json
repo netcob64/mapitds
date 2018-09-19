@@ -1,0 +1,76 @@
+{
+    "application": {
+        "ids": {
+            "1": {
+                "id": 1,
+                "name": "SAP",
+                "type": "PROGICIEL",
+                "status": "PROD",
+                "validityStart": null,
+                "validityEnd": null,
+                "onServiceSince": "01/02/2005"
+            },
+            "2": {
+                "id": 2,
+                "name": "moSaic",
+                "type": "SPECIFIQUE",
+                "status": "DEV",
+                "validityStart": "01/01/2018",
+                "validityEnd": null,
+                "onServiceSince": null
+            },
+            "3": {
+                "id": 3,
+                "name": "M@tis",
+                "type": "SPECIFIQUE",
+                "status": "DEV",
+                "validityStart": "10/05/2018",
+                "validityEnd": null,
+                "onServiceSince": null
+            },
+            "5": {
+                "id": 5,
+                "name": "SAS",
+                "type": "SPECIFIQUE",
+                "status": "ARCH",
+                "validityStart": "01/01/200",
+                "validityEnd": null,
+                "onServiceSince": "01/02/2015"
+            }
+        },
+        "names": {
+            "SAP": 1,
+            "moSaic": 2,
+            "M@tis": 3,
+            "SAS": 5
+        },
+        "nextid": 6
+    },
+     "meta-model": {
+        "ids": {
+            "1": {
+                "id": 1,
+                "name": "Application",
+                "type": "PROGICIEL",
+                "status": "PROD",
+                "validityStart": null,
+                "validityEnd": null,
+                "onServiceSince": "01/02/2005"
+            },
+            "2": {
+                "id": 2,
+                "name": "Site",
+                "type": "SPECIFIQUE",
+                "status": "DEV",
+                "validityStart": "01/01/2018",
+                "validityEnd": null,
+                "onServiceSince": null
+            }
+        },
+        "names": {
+            "Application": 1,
+            "Site": 2
+        },
+        "nextid": 3
+    }
+}
