@@ -57,18 +57,6 @@
                 "validityEnd": "2018-09-15T22:00:00.000Z",
                 "onServiceSince": "_on_service_since"
             },
-            "9": {
-                "className": "ItApplication",
-                "status": "ARC",
-                "id": 9,
-                "name": "APP_NEW",
-                "label": "_label",
-                "type": "_type",
-                "version": "_version",
-                "validityStart": "_start",
-                "validityEnd": "_end",
-                "onServiceSince": "_on_service_since"
-            },
             "10": {
                 "className": "ItApplication",
                 "status": "PROD",
@@ -78,7 +66,6 @@
         },
         "names": {
             "ZA": 10,
-            "APP_NEW": 9,
             "APP": 8,
             "SAP": 1,
             "moSaic": 2,

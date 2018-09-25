@@ -162,8 +162,8 @@ appli.route('/api/:params').get( /*authCheck, */ (req, res) => {
  */
 appli.route('/api/:params').post((req, res) => {
     const requestedAppParams = req.params['params'];
-    var params = extract(['id', 'name', 'class'], requestedAppParams);
-    traceApp('/api/:params POST called : class=' + params.class+", id="+params.id+", name="+params.name);
+    var params = extract(['class'], requestedAppParams);
+    traceApp('/api/:params POST called : class=' + params.class);
     debugApp('params=' + JSON.stringify(params));
     var result = null;
 
@@ -188,7 +188,7 @@ appli.route('/api/:params').delete((req, res) => {
     debugApp('params=' + JSON.stringify(params));
     if (params.class != null) {
         dbObject.setClass(CLASS_MAP[params.class]);
-        result = dbObject.delete(params.id);
+        result = dbObject.delete(params.id); //TODO: use req.body.id instead
     }
     debugApp('==> ' + JSON.stringify(result));
     res.json(result);
