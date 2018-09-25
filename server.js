@@ -8,6 +8,10 @@ const ItApplication = require('./ItApplication');
 CLASS_MAP[(new ItApplication()).getLabel()] = ItApplication;
 const ItMetamodel = require('./ItMetamodel');
 CLASS_MAP[(new ItMetamodel()).getLabel()] = ItMetamodel;
+const ItMessage = require('./ItMessage');
+CLASS_MAP[(new ItMessage()).getLabel()] = ItMessage;
+const ItMap = require('./ItMap');
+CLASS_MAP[(new ItMap()).getLabel()] = ItMap;
 
 const cors = require("cors");
 const bodyParser = require('body-parser');
@@ -169,6 +173,7 @@ appli.route('/api/:params').post((req, res) => {
     }
 
     debugApp('==> ' + JSON.stringify(result));
+    traceApp('==> id=' + result.id);
     res.json(result);
 });
 

@@ -11,10 +11,12 @@
         this.__proto__.__proto__.constructor.apply(this, arguments);
         
         this.onServiceSince = "_on_service_since";
-        this.from ="_from";
-        this.to ="_to";
+        this.source ="_from";
+        this.target ="_to";
+        this.data ="_to";
         this.frequency ="_frequency";
         this.media ="_media";
+        this.protocol ="_media";
     }
 
     ItMessage.prototype.getLabel = function() {
