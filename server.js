@@ -33,18 +33,18 @@ const traceApp = function(msg) {
 var INITDATA = [{
         dataClass: ItApplication,
         data: [
-            { id: 1, name: "SAP", type: "PROGICIEL", label: "no-label", version: 1, status: "PROD", onServiceSince: "01/02/2005", validityStart: null, validityEnd: null },
-            { id: 2, name: "moSaic", type: "SPECIFIQUE", label: "no-label", version: 1, status: "DEV", onServiceSince: null, validityStart: "01/01/2018", validityEnd: null },
-            { id: 3, name: "M@tis", type: "SPECIFIQUE", label: "no-label", version: 1, status: "DEV", onServiceSince: null, validityStart: "10/05/2018", validityEnd: null },
-            { id: 5, name: "SAS", type: "SPECIFIQUE", label: "no-label", version: 1, status: "ARCH", onServiceSince: "01/02/2015", validityStart: "01/01/200", validityEnd: null }
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9990", name: "SAP", type: "PROGICIEL", label: "no-label", version: 1, status: "PROD", onServiceSince: "01/02/2005", validityStart: null, validityEnd: null },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9991", name: "moSaic", type: "SPECIFIQUE", label: "no-label", version: 1, status: "DEV", onServiceSince: null, validityStart: "01/01/2018", validityEnd: null },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9992", name: "M@tis", type: "SPECIFIQUE", label: "no-label", version: 1, status: "DEV", onServiceSince: null, validityStart: "10/05/2018", validityEnd: null },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9993", name: "SAS", type: "SPECIFIQUE", label: "no-label", version: 1, status: "ARCH", onServiceSince: "01/02/2015", validityStart: "01/01/200", validityEnd: null }
         ]
     },
     {
         dataClass: ItMetamodel,
         data: [
-            { id: 1, name: "Application", version: 1, status: "ACTIVATED" },
-            { id: 2, name: "Site", version: 1, status: "DRAFT" },
-            { "id": 3,"name": "Message","label": "hello","type": "_type","status": "DRAFT","version": 0,"validityStart": "_start","validityEnd": "_end","classStatus": "DRAFT",
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9994", name: "Application", version: 1, status: "ACTIVATED" },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9995", name: "Site", version: 1, status: "DRAFT" },
+            { "id": "21c91830-c63a-11e8-8467-61d1fa9d9996","name": "Message","label": "hello","type": "_type","status": "DRAFT","version": 0,"validityStart": "_start","validityEnd": "_end","classStatus": "DRAFT",
                             "attributes": [
                                 {"type": "NUM","name": "id","label": "ID","values": "","isSystem": true,"valSystem": false},
                                 {"type": "NUM","name": "version","label": "Version", "values": "","isSystem": true,"valSystem": false},

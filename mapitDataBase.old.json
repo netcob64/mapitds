@@ -1,0 +1,349 @@
+{
+    "application": {
+        "ids": {
+            "1": {
+                "id": 1,
+                "name": "SAP",
+                "label": "no-label",
+                "type": "PROGICIEL",
+                "status": "PROD",
+                "version": 1,
+                "validityStart": null,
+                "validityEnd": null,
+                "onServiceSince": "01/02/2005"
+            },
+            "2": {
+                "id": 2,
+                "name": "moSaic",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "status": "DEV",
+                "version": 1,
+                "validityStart": "01/01/2018",
+                "validityEnd": null,
+                "onServiceSince": null
+            },
+            "3": {
+                "id": 3,
+                "name": "M@tis",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "status": "DEV",
+                "version": 1,
+                "validityStart": "10/05/2018",
+                "validityEnd": null,
+                "onServiceSince": null
+            },
+            "5": {
+                "id": 5,
+                "name": "SAS",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "status": "ARCH",
+                "version": 1,
+                "validityStart": "01/01/200",
+                "validityEnd": null,
+                "onServiceSince": "01/02/2015"
+            },
+            "8": {
+                "className": "ItApplication",
+                "status": "ARC",
+                "id": 8,
+                "name": "APP",
+                "label": "_label",
+                "type": "PRO",
+                "version": "_version",
+                "validityStart": "_start",
+                "validityEnd": "2018-09-15T22:00:00.000Z",
+                "onServiceSince": "_on_service_since"
+            },
+            "9": {
+                "className": "ItApplication",
+                "status": "ARC",
+                "id": 9,
+                "name": "APP_NEW",
+                "label": "_label",
+                "type": "_type",
+                "version": "_version",
+                "validityStart": "_start",
+                "validityEnd": "_end",
+                "onServiceSince": "_on_service_since"
+            },
+            "10": {
+                "className": "ItApplication",
+                "status": "PROD",
+                "name": "ZA",
+                "id": 10
+            },
+            "34dd47c0-c63a-11e8-8467-61d1fa9d9990": {
+                "className": "ItApplication",
+                "status": "ARC",
+                "id": "34dd47c0-c63a-11e8-8467-61d1fa9d9990",
+                "name": "NEW_APP"
+            }
+        },
+        "names": {
+            "ZA": 10,
+            "APP_NEW": 9,
+            "APP": 8,
+            "SAP": 1,
+            "moSaic": 2,
+            "M@tis": 3,
+            "SAS": 5,
+            "NEW_APP": "34dd47c0-c63a-11e8-8467-61d1fa9d9990"
+        },
+        "nextid": 11
+    },
+    "meta-model": {
+        "ids": {
+            "1": {
+                "id": 1,
+                "name": "Application",
+                "label": "_label",
+                "type": "_type",
+                "status": "ACTIVATED",
+                "version": 1,
+                "validityStart": "_start",
+                "validityEnd": "_end"
+            },
+            "2": {
+                "id": 2,
+                "name": "Site",
+                "label": "_label",
+                "type": "_type",
+                "status": "DRAFT",
+                "version": 1,
+                "validityStart": "_start",
+                "validityEnd": "_end"
+            },
+            "3": {
+                "id": 3,
+                "name": "Message",
+                "label": "hello",
+                "type": "_type",
+                "status": "DRAFT",
+                "version": 0,
+                "validityStart": "_start",
+                "validityEnd": "_end",
+                "classStatus": "DRAFT",
+                "attributes": [
+                    {
+                        "type": "NUM",
+                        "name": "id",
+                        "label": "ID",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "NUM",
+                        "name": "version",
+                        "label": "Version",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "TXT",
+                        "name": "name",
+                        "label": "Name",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "type",
+                        "label": "Type",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "status",
+                        "label": "Status",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityStart",
+                        "label": "Validity start date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityEnd",
+                        "label": "Validity end date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "media",
+                        "label": "Media",
+                        "values": "FTP;MSG",
+                        "isSystem": false,
+                        "valSystem": false
+                    }
+                ],
+                "relations": []
+            }
+        },
+        "names": {
+            "Application": 1,
+            "Site": 2,
+            "Message": 3
+        },
+        "nextid": 4
+    },
+    "map": {
+        "ids": {
+            "1": {
+                "className": "ItMap",
+                "status": "PROD",
+                "asset": {
+                    "className": "ItApplication",
+                    "status": "PROD",
+                    "id": 1,
+                    "name": "SAP",
+                    "label": "no-label",
+                    "type": "PROGICIEL",
+                    "version": 1,
+                    "validityStart": null,
+                    "validityEnd": null,
+                    "onServiceSince": "01/02/2005"
+                },
+                "assetID": 1,
+                "assetClass": "ItApplication",
+                "name": "MAP_NEW",
+                "graphData": "<mxGraphModel>\n  <root>\n    <mxCell id=\"0\"/>\n    <mxCell id=\"1\" parent=\"0\"/>\n    <mxCell id=\"2\" vertex=\"1\" parent=\"1\">\n      <ItApplication id=\"1\" name=\"SAP\" label=\"no-label\" type=\"PROGICIEL\" version=\"1\" onServiceSince=\"01/02/2005\" as=\"value\"/>\n      <mxGeometry x=\"20\" y=\"40\" width=\"80\" height=\"70\" as=\"geometry\"/>\n    </mxCell>\n    <mxCell id=\"3\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"DEV\" id=\"2\" name=\"moSaic\" label=\"no-label\" type=\"SPECIFIQUE\" version=\"1\" validityStart=\"01/01/2018\" as=\"value\"/>\n      <mxGeometry x=\"270\" y=\"50\" width=\"50\" height=\"50\" as=\"geometry\"/>\n    </mxCell>\n    <mxCell id=\"4\" edge=\"1\" parent=\"1\" source=\"2\" target=\"3\">\n      <ItMessage name=\"client\" data=\"client\" as=\"value\">\n        <ItApplication id=\"1\" name=\"SAP\" label=\"no-label\" type=\"PROGICIEL\" version=\"1\" onServiceSince=\"01/02/2005\" as=\"source\"/>\n        <ItApplication status=\"DEV\" id=\"2\" name=\"moSaic\" label=\"no-label\" type=\"SPECIFIQUE\" version=\"1\" validityStart=\"01/01/2018\" as=\"target\"/>\n      </ItMessage>\n      <mxGeometry relative=\"1\" as=\"geometry\"/>\n    </mxCell>\n  </root>\n</mxGraphModel>\n",
+                "id": 1
+            },
+            "2": {
+                "className": "ItMap",
+                "type": "MOD",
+                "status": "PROD",
+                "asset": {
+                    "className": "ItApplication",
+                    "type": "SPECIFIQUE",
+                    "status": "DEV",
+                    "id": 3,
+                    "name": "M@tis",
+                    "label": "no-label",
+                    "version": 1,
+                    "validityStart": "10/05/2018",
+                    "validityEnd": null,
+                    "onServiceSince": null
+                },
+                "assetID": 3,
+                "assetClass": "ItApplication",
+                "name": "Hello",
+                "graphData": "<mxGraphModel>\n  <root>\n    <mxCell id=\"0\"/>\n    <mxCell id=\"1\" parent=\"0\"/>\n    <mxCell id=\"2\" vertex=\"1\" parent=\"1\">\n      <ItApplication type=\"SPECIFIQUE\" status=\"DEV\" id=\"3\" name=\"M@tis\" label=\"no-label\" version=\"1\" validityStart=\"10/05/2018\" as=\"value\"/>\n      <mxGeometry x=\"20\" y=\"40\" width=\"80\" height=\"70\" as=\"geometry\"/>\n    </mxCell>\n  </root>\n</mxGraphModel>\n",
+                "id": 2
+            },
+            "3": {
+                "className": "ItMap",
+                "status": "PROD",
+                "asset": {
+                    "className": "ItApplication",
+                    "status": "DEV",
+                    "id": 2,
+                    "name": "moSaic",
+                    "label": "no-label",
+                    "type": "SPECIFIQUE",
+                    "version": 1,
+                    "validityStart": "01/01/2018",
+                    "validityEnd": null,
+                    "onServiceSince": null
+                },
+                "assetID": 2,
+                "assetClass": "ItApplication",
+                "name": "ZA",
+                "type": "MOD",
+                "graphData": "<mxGraphModel>\n  <root>\n    <mxCell id=\"0\"/>\n    <mxCell id=\"1\" parent=\"0\"/>\n    <mxCell id=\"2\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"DEV\" id=\"2\" name=\"moSaic\" label=\"no-label\" type=\"SPECIFIQUE\" version=\"1\" validityStart=\"01/01/2018\" as=\"value\"/>\n      <mxGeometry x=\"20\" y=\"40\" width=\"80\" height=\"70\" as=\"geometry\"/>\n    </mxCell>\n  </root>\n</mxGraphModel>\n",
+                "id": 3
+            },
+            "4": {
+                "className": "ItMap",
+                "status": "PROJET",
+                "asset": {
+                    "className": "ItApplication",
+                    "status": "PRO",
+                    "id": 1,
+                    "name": "SAP",
+                    "label": "no-label",
+                    "type": "PRO",
+                    "version": 1,
+                    "validityStart": "2018-09-15T22:00:00.000Z",
+                    "validityEnd": null,
+                    "onServiceSince": "01/02/2005"
+                },
+                "assetID": 1,
+                "assetClass": "ItApplication",
+                "name": "diag2",
+                "type": "ENV",
+                "graphData": "<mxGraphModel>\n  <root>\n    <mxCell id=\"0\"/>\n    <mxCell id=\"1\" parent=\"0\"/>\n    <mxCell id=\"2\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"PRO\" id=\"1\" name=\"SAP\" label=\"no-label\" type=\"PRO\" version=\"1\" validityStart=\"2018-09-15T22:00:00.000Z\" onServiceSince=\"01/02/2005\" as=\"value\"/>\n      <mxGeometry x=\"20\" y=\"40\" width=\"80\" height=\"70\" as=\"geometry\"/>\n    </mxCell>\n    <mxCell id=\"3\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"ARCH\" id=\"5\" name=\"SAS\" label=\"no-label\" type=\"SPECIFIQUE\" version=\"1\" validityStart=\"01/01/200\" onServiceSince=\"01/02/2015\" as=\"value\"/>\n      <mxGeometry x=\"290\" y=\"50\" width=\"50\" height=\"50\" as=\"geometry\"/>\n    </mxCell>\n    <mxCell id=\"4\" edge=\"1\" parent=\"1\" source=\"2\" target=\"3\">\n      <ItMessage name=\"rer\" data=\"rer\" as=\"value\">\n        <ItApplication status=\"PRO\" id=\"1\" name=\"SAP\" label=\"no-label\" type=\"PRO\" version=\"1\" validityStart=\"2018-09-15T22:00:00.000Z\" onServiceSince=\"01/02/2005\" as=\"source\"/>\n        <ItApplication status=\"ARCH\" id=\"5\" name=\"SAS\" label=\"no-label\" type=\"SPECIFIQUE\" version=\"1\" validityStart=\"01/01/200\" onServiceSince=\"01/02/2015\" as=\"target\"/>\n      </ItMessage>\n      <mxGeometry relative=\"1\" as=\"geometry\"/>\n    </mxCell>\n    <mxCell id=\"5\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"PROD\" id=\"10\" name=\"ZA\" label=\"_label\" type=\"_type\" version=\"_version\" validityStart=\"_start\" validityEnd=\"_end\" onServiceSince=\"_on_service_since\" as=\"value\"/>\n      <mxGeometry x=\"220\" y=\"10\" width=\"50\" height=\"50\" as=\"geometry\"/>\n    </mxCell>\n    <mxCell id=\"6\" edge=\"1\" parent=\"1\" source=\"2\" target=\"5\">\n      <ItMessage name=\"erer\" data=\"erer\" as=\"value\">\n        <ItApplication status=\"PRO\" id=\"1\" name=\"SAP\" label=\"no-label\" type=\"PRO\" version=\"1\" validityStart=\"2018-09-15T22:00:00.000Z\" onServiceSince=\"01/02/2005\" as=\"source\"/>\n        <ItApplication status=\"PROD\" id=\"10\" name=\"ZA\" label=\"_label\" type=\"_type\" version=\"_version\" validityStart=\"_start\" validityEnd=\"_end\" onServiceSince=\"_on_service_since\" as=\"target\"/>\n      </ItMessage>\n      <mxGeometry relative=\"1\" as=\"geometry\"/>\n    </mxCell>\n  </root>\n</mxGraphModel>\n",
+                "id": 4
+            },
+            "5": {
+                "className": "ItMap",
+                "status": "PROJET",
+                "asset": {
+                    "className": "ItApplication",
+                    "status": "PRO",
+                    "id": 1,
+                    "name": "SAP",
+                    "label": "no-label",
+                    "type": "PRO",
+                    "version": 1,
+                    "validityStart": "2018-09-15T22:00:00.000Z",
+                    "validityEnd": null,
+                    "onServiceSince": "01/02/2005"
+                },
+                "assetID": 1,
+                "assetClass": "ItApplication",
+                "name": "WQ",
+                "type": "MOD",
+                "graphData": "<mxGraphModel>\n  <root>\n    <mxCell id=\"0\"/>\n    <mxCell id=\"1\" parent=\"0\"/>\n    <mxCell id=\"2\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"PRO\" id=\"1\" name=\"SAP\" label=\"no-label\" type=\"PRO\" version=\"1\" validityStart=\"2018-09-15T22:00:00.000Z\" onServiceSince=\"01/02/2005\" as=\"value\"/>\n      <mxGeometry x=\"20\" y=\"40\" width=\"80\" height=\"70\" as=\"geometry\"/>\n    </mxCell>\n  </root>\n</mxGraphModel>\n",
+                "id": 5
+            },
+            "6": {
+                "className": "ItMap",
+                "status": "PROJET",
+                "asset": {
+                    "className": "ItApplication",
+                    "status": "ARC",
+                    "id": 8,
+                    "name": "APP",
+                    "label": "_label",
+                    "type": "PRO",
+                    "version": "_version",
+                    "validityStart": "_start",
+                    "validityEnd": "2018-09-15T22:00:00.000Z",
+                    "onServiceSince": "_on_service_since"
+                },
+                "assetID": 8,
+                "assetClass": "ItApplication",
+                "name": "ret",
+                "type": "MOD",
+                "graphData": "<mxGraphModel>\n  <root>\n    <mxCell id=\"0\"/>\n    <mxCell id=\"1\" parent=\"0\"/>\n    <mxCell id=\"2\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"ARC\" id=\"8\" name=\"APP\" label=\"_label\" type=\"PRO\" version=\"_version\" validityStart=\"_start\" validityEnd=\"2018-09-15T22:00:00.000Z\" onServiceSince=\"_on_service_since\" as=\"value\"/>\n      <mxGeometry x=\"20\" y=\"40\" width=\"80\" height=\"70\" as=\"geometry\"/>\n    </mxCell>\n    <mxCell id=\"3\" vertex=\"1\" parent=\"1\">\n      <ItApplication status=\"DRA\" id=\"2\" name=\"moSaic\" label=\"no-label\" type=\"PRO\" version=\"1\" validityStart=\"01/01/2018\" as=\"value\"/>\n      <mxGeometry x=\"210\" y=\"75\" width=\"50\" height=\"50\" as=\"geometry\"/>\n    </mxCell>\n  </root>\n</mxGraphModel>\n",
+                "id": 6
+            }
+        },
+        "names": {
+            "MAP_NEW": 1,
+            "Hello": 2,
+            "ZA": 3,
+            "diag2": 4,
+            "WQ": 5,
+            "ret": 6
+        },
+        "nextid": 7
+    }
+}
