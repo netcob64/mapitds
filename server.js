@@ -17,7 +17,8 @@ const cors = require("cors");
 const bodyParser = require('body-parser');
 
 const port = process.env.PORT || 8080;
-const DEBUG = process.env.DEBUG || false;
+//const DEBUG = process.env.DEBUG || false; 
+const DEBUG = true;
 const TRACE = process.env.TRACE || true;
 
 const debugApp = function(msg) {
@@ -33,17 +34,17 @@ const traceApp = function(msg) {
 var INITDATA = [{
         dataClass: ItApplication,
         data: [
-            { id: "21c91830-c63a-11e8-8467-61d1fa9d9990", name: "SAP", type: "PROGICIEL", label: "no-label", version: 1, status: "PROD", onServiceSince: "01/02/2005", validityStart: null, validityEnd: null },
-            { id: "21c91830-c63a-11e8-8467-61d1fa9d9991", name: "moSaic", type: "SPECIFIQUE", label: "no-label", version: 1, status: "DEV", onServiceSince: null, validityStart: "01/01/2018", validityEnd: null },
-            { id: "21c91830-c63a-11e8-8467-61d1fa9d9992", name: "M@tis", type: "SPECIFIQUE", label: "no-label", version: 1, status: "DEV", onServiceSince: null, validityStart: "10/05/2018", validityEnd: null },
-            { id: "21c91830-c63a-11e8-8467-61d1fa9d9993", name: "SAS", type: "SPECIFIQUE", label: "no-label", version: 1, status: "ARCH", onServiceSince: "01/02/2015", validityStart: "01/01/200", validityEnd: null }
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9990", name: "SAP", type: "PROGICIEL", label: "no-label", version: 0, status: "PROD", onServiceSince: "01/02/2005", validityStart: null, validityEnd: null },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9991", name: "moSaic", type: "SPECIFIQUE", label: "no-label", version: 0, status: "DEV", onServiceSince: null, validityStart: "01/01/2018", validityEnd: null },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9992", name: "M@tis", type: "SPECIFIQUE", label: "no-label", version: 0, status: "DEV", onServiceSince: null, validityStart: "10/05/2018", validityEnd: null },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9993", name: "SAS", type: "SPECIFIQUE", label: "no-label", version: 0, status: "ARCH", onServiceSince: "01/02/2015", validityStart: "01/01/200", validityEnd: null }
         ]
     },
     {
         dataClass: ItMetamodel,
         data: [
-            { id: "21c91830-c63a-11e8-8467-61d1fa9d9994", name: "Application", version: 1, status: "ACTIVATED" },
-            { id: "21c91830-c63a-11e8-8467-61d1fa9d9995", name: "Site", version: 1, status: "DRAFT" },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9994", name: "Application", version: 0, status: "ACTIVATED" },
+            { id: "21c91830-c63a-11e8-8467-61d1fa9d9995", name: "Site", version: 0, status: "DRAFT" },
             { "id": "21c91830-c63a-11e8-8467-61d1fa9d9996","name": "Message","label": "hello","type": "_type","status": "DRAFT","version": 0,"validityStart": "_start","validityEnd": "_end","classStatus": "DRAFT",
                             "attributes": [
                                 {"type": "NUM","name": "id","label": "ID","values": "","isSystem": true,"valSystem": false},
@@ -182,13 +183,13 @@ appli.route('/api/:params').post((req, res) => {
 */
 appli.route('/api/:params').delete((req, res) => {
     const requestedAppParams = req.params['params'];
-    var params = extract(['id', 'class'], requestedAppParams);
+    var params = extract(['id', 'class', 'version'], requestedAppParams);
 
-    traceApp('/api/:params DELETE called : class=' + params.class+", id="+params.id+", name="+params.name);
+    traceApp('/api/:params DELETE called : class=' + params.class+", id="+params.id+", name="+params.name+", version="+params.version);
     debugApp('params=' + JSON.stringify(params));
     if (params.class != null) {
         dbObject.setClass(CLASS_MAP[params.class]);
-        result = dbObject.delete(params.id); //TODO: use req.body.id instead
+        result = dbObject.delete(params.id, params.version); //TODO: use req.body.id instead
     }
     debugApp('==> ' + JSON.stringify(result));
     res.json(result);
