@@ -68,7 +68,7 @@
                             this.debug('save(obj name=' + obj.name + ', id=' + data.id + ') VERSION INTEGRITY ISSUE');
                         } else {
                             // Remove existing name index
-                            obj.version = obj.version + 1;
+
                             this.db.delete(this.byNamePath + '/' + data.name);
                             this.debug('save(obj name=' + obj.name + ') UPDATE (Version=' + obj.version + ')');
                         }
@@ -76,6 +76,7 @@
                         // Create case
                         this.debug('save(obj name=' + obj.name + ') CREATE');
                     }
+                    obj.version = obj.version + 1;
                     this.db.push(this.byIdPath + '/' + obj.id, obj);
                     this.db.push(this.byNamePath + '/' + obj.name, obj.id);
                 }
@@ -90,7 +91,38 @@
             version: obj.version
         };
     }
-
+    ObjectDB.prototype.delete = function(objId, objVersion) {
+        var reqStatus = 'success';
+        var reqStatusReason = null;
+        let obj = null;
+        try {
+            obj = this.getForId(objId);
+            if (obj != null) {
+                if (obj.version == objVersion) {
+                    this.db.delete(this.byNamePath + '/' + obj.name);
+                    this.db.delete(this.byIdPath + '/' + obj.id);
+                } else {
+                    reqStatus = 'error';
+                    reqStatusReason = 'trying to delete object id=' + objId + ' with a version=' + objVersion + ' that does\'t match the database one=' + obj.version;
+                    this.debug('### ERROR: delete - ' + reqStatusReason);
+                }
+            } else {
+                reqStatus = 'error';
+                reqStatusReason = 'object id=' + objId + ' not found';
+            }
+        } catch (error) {
+            console.error('### ERROR: delete - ' + error.message);
+            reqStatus = 'error';
+            reqStatusReason = 'object id=' + objId + error.message;
+        }
+        this.debug('delete(' + objId + ')' + (reqStatusReason == null ? ' OK' : ' ERROR or NOT FOUND'));
+        return {
+            status: reqStatus,
+            message: reqStatusReason,
+            id: (obj != null ? obj.id : null),
+            version: (obj != null ? obj.version : null)
+        };
+    }
 
     /*
      *
@@ -178,32 +210,7 @@
         return data;
     };
 
-    ObjectDB.prototype.delete = function(objId, objVersion) {
-        var reqStatus = 'success';
-        var reqStatusReason = null;
-        try {
-            var obj = this.getForId(objId);
-            if (obj.version == objVersion) {
-                this.db.delete(this.byNamePath + '/' + obj.name);
-                this.db.delete(this.byIdPath + '/' + obj.id);
-            } else {
-                reqStatus = 'error';
-                reqStatusReason = 'trying to delete object id=' + objId + ' with a version=' + objVersion + ' that does\'t match the database one=' + obj.version;
-                this.debug('### ERROR: delete - ' + reqStatusReason);
-            }
-        } catch (error) {
-            console.error('### ERROR: delete - ' + error.message);
-            reqStatus = 'error';
-            reqStatusReason = 'object id=' + objId + ' not found';
-        }
-        this.debug('delete(' + objId + ')' + (reqStatusReason == null ? ' OK' : ' NOT FOUND'));
-        return {
-            status: reqStatus,
-            message: reqStatusReason,
-            id: obj.id,
-            version: obj.version
-        };
-    }
+
 
     module.exports = ObjectDB;
 })();

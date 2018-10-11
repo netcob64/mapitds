@@ -1,25 +1,13 @@
 {
     "application": {
         "ids": {
-            "21c91830-c63a-11e8-8467-61d1fa9d9991": {
-                "id": "21c91830-c63a-11e8-8467-61d1fa9d9991",
-                "name": "moSaic",
+            "21c91830-c63a-11e8-8467-61d1fa9d9992": {
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9992",
+                "name": "M@tis",
                 "label": "no-label",
                 "type": "SPECIFIQUE",
                 "status": "DEV",
-                "version": 0,
-                "validityStart": "01/01/2018",
-                "validityEnd": null,
-                "onServiceSince": null
-            },
-            "21c91830-c63a-11e8-8467-61d1fa9d9992": {
-                "className": "ItApplication",
-                "status": "DEV",
-                "id": "21c91830-c63a-11e8-8467-61d1fa9d9992",
                 "version": 1,
-                "name": "M@tis",
-                "label": "no-label",
-                "type": "PRO",
                 "validityStart": "10/05/2018",
                 "validityEnd": null,
                 "onServiceSince": null
@@ -30,16 +18,78 @@
                 "label": "no-label",
                 "type": "SPECIFIQUE",
                 "status": "ARCH",
-                "version": 0,
+                "version": 1,
                 "validityStart": "01/01/200",
                 "validityEnd": null,
                 "onServiceSince": "01/02/2015"
+            },
+            "21c91830-c63a-11e8-8467-61d1fa9d9990": {
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9990",
+                "name": "SAP",
+                "label": "no-label",
+                "type": "PROGICIEL",
+                "status": "PROD",
+                "version": 1,
+                "validityStart": null,
+                "validityEnd": null,
+                "onServiceSince": "01/02/2005"
+            },
+            "21c91830-c63a-11e8-8467-61d1fa9d9991": {
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9991",
+                "name": "moSaic",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "status": "DEV",
+                "version": 1,
+                "validityStart": "01/01/2018",
+                "validityEnd": null,
+                "onServiceSince": null
+            },
+            "9626a060-cbf5-11e8-9d72-57ff9a50e34d": {
+                "className": "ItApplication",
+                "status": "PROJET",
+                "id": "9626a060-cbf5-11e8-9d72-57ff9a50e34d",
+                "version": 1,
+                "name": "NEW2"
+            },
+            "f74b54b0-cbf7-11e8-a578-0bea3287c0ba": {
+                "className": "ItApplication",
+                "status": "PROJET",
+                "id": "f74b54b0-cbf7-11e8-a578-0bea3287c0ba",
+                "version": 2,
+                "name": "NEW1",
+                "label": "_label",
+                "type": "_type",
+                "validityStart": "_start",
+                "validityEnd": "_end",
+                "onServiceSince": "_on_service_since"
+            },
+            "3c9a11c0-cbfb-11e8-a4db-49ac0e8e6ee5": {
+                "modified": false,
+                "className": "ItApplication",
+                "status": "PROJET",
+                "id": "3c9a11c0-cbfb-11e8-a4db-49ac0e8e6ee5",
+                "version": 1,
+                "name": "toto"
+            },
+            "476e4940-cbfb-11e8-a4db-49ac0e8e6ee5": {
+                "modified": false,
+                "className": "ItApplication",
+                "status": "PROJET",
+                "id": "476e4940-cbfb-11e8-a4db-49ac0e8e6ee5",
+                "version": 1,
+                "name": "titi"
             }
         },
         "names": {
             "moSaic": "21c91830-c63a-11e8-8467-61d1fa9d9991",
             "SAS": "21c91830-c63a-11e8-8467-61d1fa9d9993",
-            "M@tis": "21c91830-c63a-11e8-8467-61d1fa9d9992"
+            "SAP": "21c91830-c63a-11e8-8467-61d1fa9d9990",
+            "M@tis": "21c91830-c63a-11e8-8467-61d1fa9d9992",
+            "NEW2": "9626a060-cbf5-11e8-9d72-57ff9a50e34d",
+            "NEW1": "f74b54b0-cbf7-11e8-a578-0bea3287c0ba",
+            "toto": "3c9a11c0-cbfb-11e8-a4db-49ac0e8e6ee5",
+            "titi": "476e4940-cbfb-11e8-a4db-49ac0e8e6ee5"
         }
     },
     "meta-model": {
@@ -50,7 +100,7 @@
                 "label": "_label",
                 "type": "_type",
                 "status": "ACTIVATED",
-                "version": 0,
+                "version": 1,
                 "validityStart": "_start",
                 "validityEnd": "_end"
             },
@@ -60,7 +110,7 @@
                 "label": "_label",
                 "type": "_type",
                 "status": "DRAFT",
-                "version": 0,
+                "version": 1,
                 "validityStart": "_start",
                 "validityEnd": "_end"
             },
@@ -70,7 +120,7 @@
                 "label": "hello",
                 "type": "_type",
                 "status": "DRAFT",
-                "version": 0,
+                "version": 1,
                 "validityStart": "_start",
                 "validityEnd": "_end",
                 "classStatus": "DRAFT",
